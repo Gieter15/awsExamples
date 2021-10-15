@@ -8,6 +8,7 @@ key_id = secret['access_key_id']
 access_key = secret['secret_access_key']
 bucket = 'grootsbucket'
 
+# session = boto3.Session(profile_name='default')
 
 #Creating Session With Boto3.
 session = boto3.Session(aws_access_key_id=key_id, aws_secret_access_key=access_key)
